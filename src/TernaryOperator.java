@@ -1,0 +1,20 @@
+public class TernaryOperator {
+    public static void main(String[] args) {
+
+        var nilai = 75;
+
+        //Tanpa Ternary Operator
+//        String ucapan;
+//
+//        if (nilai >= 75){
+//            ucapan = "Selamat Anda Lulus";
+//        }else {
+//            ucapan = "Silahkan coba lagi";
+//        }
+
+        //Dengan Ternary Operator
+        String ucapan = nilai >= 75 ? "Selamat Anda Lulus" : "Silahkan Coba Lagi";
+
+        System.out.println(ucapan);
+    }
+}
